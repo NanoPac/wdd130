@@ -1,0 +1,180 @@
+/* Apply styles to all div elements */
+div {
+    max-width: 1600px;
+    height: 100px;
+    background-color: powderblue;
+}
+
+/* Center the content within the #content div and set its max-width */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Center the text within navigation links */
+nav a {
+    text-align: center;
+}
+
+/* Center the text within h1 and h4 elements inside #hero-msg */
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
+}
+
+/* Apply styles to elements with class .button-box */
+.button-box {
+    text-align: center;
+    background-color: lightgray; /* Add a background color */
+    padding: 10px; /* Add some padding to the box */
+    margin-bottom: 20px; /* Add space below the box */
+}
+
+/* Center the content within sections within the <main> element */
+main section {
+    text-align: center;
+    background-color: #f0f0f0; /* Change the background color */
+    padding: 20px; /* Add padding to sections */
+    margin-bottom: 30px; /* Add space below sections */
+}
+
+/* Apply more styles as needed for other elements */
+#background {
+    height: 725px;
+    /* You can add a background color here */
+    background-color: #FFD700; /* For example: background-color: #E0E0E0; */
+}
+
+/* Background color for the body */
+body {
+    background-color: #FFD700; /* Golden Yellow */
+}
+
+/* Background color for the header with some transparency */
+header {
+    background-color: rgba(0, 33, 71, 0.7); /* Dark Blue with Transparency */
+}
+
+/* Background color for navigation links when hovered */
+nav a:hover {
+    background-color: #002147; /* Dark Blue */
+}
+
+/* Background color for elements with class .book and .join */
+.book, .join {
+    background-color: #008080; /* Teal */
+}
+
+/* Background color for elements with class .book and .join when hovered */
+.book:hover, .join:hover {
+    background-color: #AA0000; /* Dark Red */
+}
+
+/* Background color for the #background div */
+#background {
+    background-color: #002147; /* Dark Blue */
+}
+
+/* Background color for elements with class .msg */
+.msg {
+    background-color: #008080; /* Teal */
+}
+
+/* Background color for the footer */
+footer {
+    background-color: #FFD700; /* Golden Yellow */
+}
+/* Text color for navigation links */
+nav a {
+    color: #FFD700; /* Golden Yellow */
+}
+
+/* Text color for navigation links when hovered */
+nav a:hover {
+    color: #008080; /* Teal */
+}
+
+/* Text color for elements with class .home-title */
+.home-title {
+    color: #002147; /* Dark Blue */
+}
+
+/* Text color for h4 elements */
+h4 {
+    color: #AA0000; /* Dark Red */
+}
+
+/* Text color for elements with class .book and .join */
+.book, .join {
+    color: #FFD700; /* Golden Yellow */
+}
+
+/* Text color for elements with class .book and .join when hovered */
+.book:hover, .join:hover {
+    color: #002147; /* Dark Blue */
+}
+
+/* Text color for h2 elements within elements with class .msg */
+.msg h2 {
+    color: #008080; /* Teal */
+}
+
+/* Text color for paragraphs within elements with class .msg */
+.msg p {
+    color: #008080; /* Teal */
+}
+
+/* Text color for the footer */
+footer {
+    color: #AA0000; /* Dark Red */
+}
+
+/* Text color for footer links */
+footer a {
+    color: #002147; /* Dark Blue */
+}
+
+/* Text color for footer links when hovered */
+footer a:hover {
+    color: #FFD700; /* Golden Yellow */
+}
+/* Width for the logo */
+.logo {
+    width: 80px;
+}
+
+/* Width for all card icons */
+.icon {
+    width: 80px;
+}
+
+/* Width for the hero image */
+#hero-img {
+    width: 100%;
+}
+/* Remove underlines from navigation links and set underline on hover */
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+/* Remove underlines from .book and .join links and set underline on hover */
+.book, .join {
+    text-decoration: none;
+}
+
+/* Remove underlines from footer links and set underline on hover */
+footer a {
+    text-decoration: none;
+}
+
+/* Add underlines to footer paragraph links on hover */
+footer p a:hover {
+    text-decoration: underline;
+}
+
+/* Increase the font size for footer paragraphs */
+footer p {
+    font-size: 1.2em;
+}
