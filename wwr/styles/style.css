@@ -1,7 +1,7 @@
 /* Apply styles to all div elements */
 div {
     max-width: 1600px;
-    height: 100px;
+    height: 750px;
     background-color: powderblue;
 }
 
@@ -62,7 +62,7 @@ nav a:hover {
 
 /* Background color for elements with class .book and .join */
 .book, .join {
-    background-color: #008080; /* Teal */
+    background-color: #e6dddb; /* Teal */
 }
 
 /* Background color for elements with class .book and .join when hovered */
@@ -77,7 +77,7 @@ nav a:hover {
 
 /* Background color for elements with class .msg */
 .msg {
-    background-color: #008080; /* Teal */
+    background-color: #e6dddb; /* Teal */
 }
 
 /* Background color for the footer */
